@@ -1,0 +1,63 @@
+/*
+    1. Posicionamiento
+    2. Modelo de caja
+    3. Tipografía
+    4. Visuales
+    5. Otros (Misceleanos)
+*/
+:root {
+    /* Colors */
+    /* font-size */
+}
+/* Valores iniciales */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+/* Fin Valores iniciales */
+body {
+    font-size: 1.6rem;
+}
+section {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+.container {
+    width: 400px;
+    height: 100px;
+    background-color: papayawhip;
+    display: flex;
+    justify-content: space-around;
+}
+.container:hover .box{
+    transition: transform 2s;
+    transform: scale(1.2);
+}
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+}
+.box1 {
+    background-color: lightcoral;
+}
+.box1 {
+    transition: transform 500ms;
+
+}
+.box2 {
+    background-color: salmon;
+    transition: transform 1s;
+}
+.box3 {
+    background-color: darksalmon;
+    transition: transform 1.5s;
+}

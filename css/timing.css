@@ -1,0 +1,54 @@
+/*
+    1. Posicionamiento
+    2. Modelo de caja
+    3. Tipografía
+    4. Visuales
+    5. Otros (Misceleanos)
+*/
+:root {
+    /* Colors */
+    /* font-size */
+}
+/* Valores iniciales */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+/* Fin Valores iniciales */
+body {
+    font-size: 1.6rem;
+}
+section {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+.shadown {
+    width: 100px;
+    height: 100px;
+    background-image: radial-gradient(circle, #aeaeae, #989898, #828282, #6d6d6d, #595959);
+    border-radius: 50%;
+}
+.circle {
+    width: 100px;
+    height: 100px;
+    background-image: radial-gradient(circle, #000000, #1a1a1a, #2e2e2e, #434343, #595959);
+    border-radius: 50%;
+}
+.circle:hover {
+    /* x y y */
+    /* transform: translate(20px, -20px); */
+    /* transform: translateX(20px); */
+    transform: translateY(-20px);
+    transform: translate(0 -20px);
+}
+/* scale -> Agrandar */
+/* skew -> defomrar un poco el espacio */
+/* rotate -> girar un elemento*/

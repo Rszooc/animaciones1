@@ -1,0 +1,73 @@
+/*
+    1. Posicionamiento
+    2. Modelo de caja
+    3. Tipografía
+    4. Visuales
+    5. Otros (Misceleanos)
+*/
+:root {
+    /* Colors */
+    /* font-size */
+}
+/* Valores iniciales */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+/* Fin Valores iniciales */
+body {
+    font-size: 1.6rem;
+}
+section {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: radial-gradient(circle, #aeaeae, #989898, #828282, #6d6d6d, #595959);
+    margin: 10px 0;
+}
+.circle:hover {
+    /* Cambiar el tamaño */
+    transform: scale(1.2);
+    /* transform: scaleX(0.5); */
+    /* transform: scaleY(0.5); */
+    /* transform: scale(0.5, 1.2); */
+}
+.cuadrado {
+    width: 100px;
+    height: 100px;
+    border-radius: 5%;
+    background-image: radial-gradient(circle, #aeaeae, #989898, #828282, #6d6d6d, #595959);
+    margin: 10px 0;
+}
+.cuadrado:hover {
+    transform: skew(20deg);
+    /* Se puede hacer en x y y  */
+}
+/* scale -> Agrandar */
+/* skew -> defomrar un poco el espacio */
+/* rotate -> girar un elemento*/
+
+.cdrdo { 
+    width: 100px;
+    height: 100px;
+    border-radius: 5%;
+    background-image: radial-gradient(circle, #aeaeae, #989898, #828282, #6d6d6d, #595959);
+    margin: 10px 0;
+}
+.cdrdo:hover {
+    transform: rotate(20deg);
+    /* Se puede girar en x o y */
+}
+

@@ -60,3 +60,18 @@ p {
 p:not(.maravillas) {
     color: lightsalmon;
 }
+.container {
+    margin-top: 100px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+.container div:nth-child(1) {
+    color: lightgreen;
+}
+.pseudoel::before {
+    content: ':) ';
+}
+.pseudoel::after {
+    content: ' :)';
+}
