@@ -30,15 +30,27 @@ section {
     justify-content: center;
     align-content: center;
 }
-div {
+button {
     width: 100px;
-    height: 100px;
-    border-radius: 50%;
+    height: 50px;
+    background-color: #0A65EC;
+    cursor: pointer;
+    border: none;
+    box-shadow: 1px 2px 5px black;
 }
-.container:hover .pelota{
-    transform: translateY(-55px);
-    /* background-color: blueviolet; */
+.better {
+    /* Optimización */
+    will-change: transform;
+    transition: transform 500ms;
 }
-.pelota {
-    background-color: antiquewhite;
+.better:hover {
+    transform: translateY(5px);
+}
+.worst {
+    /* Optimización */
+    will-change: transform;
+    transition: margin-top 500ms;
+}
+.worst:hover {
+    margin-top: 5px;
 }
